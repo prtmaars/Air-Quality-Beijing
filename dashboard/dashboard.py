@@ -7,7 +7,7 @@ st.set_page_config(page_title="Air Quality Dashboard", layout="wide")
 
 @st.cache_data
 def load_filtered_data(start_date, end_date, selected_city):
-    file_path_template = "C:/Users/prtma/OneDrive/Documents/Project Dicoding/Air Quality/data_{i}.csv"
+    file_path_template = "https://raw.githubusercontent.com/prtmaars/Air-Quality-Beijing/1107972bcec66d70863a485546428c6add92c455/dashboard/data_{i}.csv"
     city_names = [
         "Aotizhongxin", "Changping", "Dingling", "Dongsi", "Guanyuan", 
         "Gucheng", "Huairou", "Nongzhanguan", "Shunyi", "Tiantan", 
@@ -26,7 +26,7 @@ def load_filtered_data(start_date, end_date, selected_city):
 
 @st.cache_data
 def load_all_cities_data(start_date, end_date):
-    file_path_template = "C:/Users/prtma/OneDrive/Documents/Project Dicoding/Air Quality/data_{i}.csv"
+    file_path_template = "https://raw.githubusercontent.com/prtmaars/Air-Quality-Beijing/1107972bcec66d70863a485546428c6add92c455/dashboard/data_{i}.csv"
     city_names = [
         "Aotizhongxin", "Changping", "Dingling", "Dongsi", "Guanyuan", 
         "Gucheng", "Huairou", "Nongzhanguan", "Shunyi", "Tiantan", 
