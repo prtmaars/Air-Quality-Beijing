@@ -1,4 +1,5 @@
-# Dicoding Collection Dashboard ✨
+# Beijing Air Quality Analysis 
+Dicoding Project ✨
 
 ## Setup Environment - Anaconda
 ```
