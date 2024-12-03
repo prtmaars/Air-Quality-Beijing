@@ -36,9 +36,17 @@ Dataset yang digunakan merupakan dataset kualitas udara dari 12 kota di China, y
 16. WSPM: Wind Speed per Minute, Kecepatan angin dalam m/s.
 17. station: Nama stasiun tempat data diambil.
 
-## Visualization
+## Analysis & Visualization
 
-## Analysis
+## Conclusion
+Konklusi Masalah 1: Kualitas Udara Berdasarkan Partikel Udara
+Berdasarkan analisis kualitas udara dari segi partikel udara, Kota Dingling menempati posisi sebagai kota dengan kualitas udara paling bersih, dengan konsentrasi partikel udara yang relatif rendah dibandingkan kota lainnya. Sebaliknya, Kota Gucheng memiliki kualitas udara yang paling buruk, dengan tingkat polusi partikel yang sangat tinggi. Namun, meskipun Kota Dingling menunjukkan kualitas udara yang lebih baik, hasil analisis lanjutan yang mengelompokkan kota-kota berdasarkan Air Quality Index (AQI) menunjukkan bahwa Kota Dingling masih berada dalam kategori Tidak Sehat, sementara Kota Gucheng masuk dalam kategori Sangat Tidak Sehat. Hal ini menunjukkan bahwa meskipun tingkat polusi partikel di Kota Dingling lebih rendah, kualitas udara secara keseluruhan masih belum memenuhi standar kesehatan yang ideal.
+Konklusi Masalah 2: Pengaruh Curah Hujan terhadap Kualitas Udara
+Dalam hal pengaruh curah hujan terhadap kualitas udara, ditemukan bahwa Kota Nongzhanguan memiliki curah hujan tertinggi, sementara Kota Dingling memiliki curah hujan paling rendah. Namun, hasil analisis menunjukkan bahwa curah hujan tidak memiliki pengaruh yang signifikan terhadap tingkat polusi udara, terutama dari segi partikel udara. Hal ini mengindikasikan bahwa faktor lain, seperti aktivitas industri atau lalu lintas kendaraan, mungkin memiliki peran yang lebih besar dalam menentukan kualitas udara, ketimbang curah hujan itu sendiri.
+Konklusi Masalah 3: Kualitas Udara Berdasarkan Konsentrasi Gas Polutan
+Dari segi gas polutan, beberapa kota menunjukkan tingkat konsentrasi gas yang signifikan. Kota Nongzhanguan tercatat memiliki konsentrasi gas SO2 tertinggi, sedangkan Kota Dingling tercatat sebagai kota dengan konsentrasi gas SO2 terendah. Untuk gas NO2, Kota Wanliu menempati posisi dengan konsentrasi tertinggi, sementara Kota Dingling memiliki konsentrasi NO2 terendah. Pada gas O3, Kota Dingling tercatat memiliki konsentrasi O3 paling tinggi, sedangkan Kota Wanliu memiliki konsentrasi O3 paling rendah. Gas CO menunjukkan konsentrasi tertinggi di Kota Wanshouxigong, sementara Kota Dingling kembali mencatatkan konsentrasi CO terendah. Secara keseluruhan, Kota Dingling dapat dikategorikan sebagai kota paling bersih dari segi gas polutan, karena menduduki peringkat terendah dalam konsentrasi SO2, NO2, dan CO. Meskipun demikian, konsentrasi gas O3 di Kota Dingling lebih tinggi, yang menandakan adanya tantangan dalam mengelola semua jenis polusi udara secara menyeluruh.
+
+Secara keseluruhan, hasil analisis ini memberikan gambaran yang jelas mengenai kondisi kualitas udara di berbagai kota. Meskipun beberapa kota menunjukkan kualitas udara yang lebih baik dari segi partikel dan gas polutan tertentu, penting untuk diingat bahwa kualitas udara keseluruhan, seperti yang tercermin dalam AQI, harus dipertimbangkan dalam perumusan kebijakan dan langkah-langkah mitigasi yang efektif.
 
 ___
 
