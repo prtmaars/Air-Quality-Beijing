@@ -51,24 +51,3 @@ Dari segi gas polutan, beberapa kota menunjukkan tingkat konsentrasi gas yang si
 Secara keseluruhan, hasil analisis ini memberikan gambaran yang jelas mengenai kondisi kualitas udara di berbagai kota. Meskipun beberapa kota menunjukkan kualitas udara yang lebih baik dari segi partikel dan gas polutan tertentu, penting untuk diingat bahwa kualitas udara keseluruhan, seperti yang tercermin dalam AQI, harus dipertimbangkan dalam perumusan kebijakan dan langkah-langkah mitigasi yang efektif.
 
 ___
-
-## Setup Environment - Anaconda
-```
-conda create --name main-ds python=3.9
-conda activate main-ds
-pip install -r requirements.txt
-```
-
-## Setup Environment - Shell/Terminal
-```
-mkdir proyek_analisis_data
-cd proyek_analisis_data
-pipenv install
-pipenv shell
-pip install -r requirements.txt
-```
-
-## Run steamlit app
-```
-streamlit run dashboard.py
-```
