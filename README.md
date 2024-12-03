@@ -37,27 +37,27 @@ Dataset yang digunakan merupakan dataset kualitas udara dari 12 kota di China, y
 17. station: Nama stasiun tempat data diambil.
 
 ## Analysis & Visualization
-<img src="images/cityrain.png" alt="Tingkat curah hujan di setiap kota" width="600/>
+![Tingkat curah hujan di setiap kota](https://raw.githubusercontent.com/prtmaars/Air-Quality-Beijing/master/images/cityrain.png)
 Berdasarkan pada grafik di atas, Kota Nongzhanguan memiliki curah hujan paling tinggi dan Kota Dingling memiliki curah hujan paling rendah. Jika dibandingkan dengan grafik pada partikel udara, nampaknya bahwa curah hujan yang tinggi tidak terlalu berpengaruh secara signifikan terhadap kualitas udara. Terlihat bahwa kota dengan kualitas udara paling bersih dari segi partikel udara yaitu Kota Dingling berada di urutan paling terakhir dengan curah hujan paling tinggi, sedangkan Kota Gucheng yang merupakan kota dengan kualitas udara paling kotor dari segi partikel udara berada di urutan ke-7. Sehingga dapat disimpulkan bahwa curah hujan masih mempengaruhi kualitas udara walaupun tidak signifikan.
 
-<img src="images/citypm25threshold.png" alt="Konsentrasi PM2.5 di setiap kota" width="300/>
-<img src="images/citypm10threshold.png" alt="Konsentrasi PM10 di setiap kota" width="300/>
+![Konsentrasi PM2.5 di setiap kota](https://raw.githubusercontent.com/prtmaars/Air-Quality-Beijing/master/images/citypm25threshold.png)
+![Konsentrasi PM10 di setiap kota](https://raw.githubusercontent.com/prtmaars/Air-Quality-Beijing/master/images/citypm10threshold.png)
 PM2.5 atau Particulate Matter 2.5 merupakan konsentrasi partikel halus di udara yang berukuran ≤2.5 mikrometer (μg/m³), sedangkan PM10 atau Particulate Matter 10 merupakan konsentrasi partikel kasar di udara yang berukuran ≤10 mikrometer (μg/m³). Pada dasarnya, perhitungan pada PM10 sudah mencakup dari perhitungan PM2.5. Dalam hal ini, dapat disimpulkan bahwa kota yang memiliki jumlah PM10 paling banyak merupakan kota dengan kualitas udara paling kotor dari segi partiker udara dan kota yang memiliki jumlah PM10 paling sedikit merupakan kota dengan kualitas udara paling bersih dari segi partikel udara. Maka, dalam rentang waktu 1 Maret 2013 sampai dengan 28 Februari 2017, Kota Dingling merupakan kota paling bersih dan Kota Gucheng merupakan kota paling kotor pada kualitas udaranya dari segi partikel udara.
 
+![Kategori kota](https://raw.githubusercontent.com/prtmaars/Air-Quality-Beijing/master/images/citycategories.png)
 <img src="images/citycategories.png" alt="Kategori kota" width="600/>
 Setelah dilakukan pengelompokan berdasarkan AQI (Air Quality Index), didapat bahwa 9 dari 12 kota berada pada kategori Sangat Tidak Sehat yaitu Kota Aotizhongxin, Kota Dongsi, Kota Guanyuan, Kota Gucheng, Kota Nongzhanguan, Kota Shunyi, Kota Tiantan, Kota Wanliu dan Kota Wanshouxigong. Sedangkan 3 lainnya berada pada kategori Tidak Sehat yaitu Kota Changping, Kota Dingling dan Kota Huairou.
 
-<img src="images/cityso2threshold.png" alt="Konsentrasi sulfur dioksida di setiap kota" width="600/>
+![Konsentrasi sulfur dioksida di setiap kota](https://raw.githubusercontent.com/prtmaars/Air-Quality-Beijing/master/images/cityso2threshold.png)
 Pada gas SO2 atau Sulfur Dioksida, WHO (World Health Organization) menetapkan ambang batas aman di angka 20 μg/m³. Berdasarkan grafik di atas, konsentrasi gas SO2 di seluruh kota masih berada di bawah ambang batas sehingga dapat dikatakan aman. Meskipun demikian, Kota Nongzhanguan memiliki konsentrasi gas SO2 paling tinggi dan Kota Dingling memiliki konsentrasi gas SO2 paling rendah diantara kota-kota lainnya.
 
-<img src="images/cityno2threshold.png" alt="Konsentrasi nitrogen dioksida di setiap kota" width="600/>
+![Konsentrasi nitrogen dioksida di setiap kota](https://raw.githubusercontent.com/prtmaars/Air-Quality-Beijing/master/images/cityno2threshold.png)
 Pada gas NO2 atau Nitrogen Dioksida, WHO (World Health Organization) menetapkan ambang batas aman di angka 10 μg/m³. Berdasarkan grafik di atas, konsentrasi gas NO2 di seluruh kota melebihi ambang batas sehingga dapat dikatakan tidak aman. Kota Wanliu memiliki konsentrasi gas NO2 paling tinggi dan Kota Dingling memiliki konsentrasi gas NO2 paling rendah diantara kota-kota lainnya walaupun masih berada di atas batas aman.
 
-<img src="images/cityo3threshold.png" alt="Konsentrasi ozon di setiap kota" width="600/>
+![Konsentrasi ozon di setiap kota](https://raw.githubusercontent.com/prtmaars/Air-Quality-Beijing/master/images/cityo3threshold.png)
 Pada gas O3 atau Ozon, WHO (World Health Organization) menetapkan ambang batas aman di angka 100 μg/m³. Berdasarkan grafik di atas, konsentrasi gas O3 di seluruh kota masih berada di bawah garis ambang batas sehingga dapat dikatakan aman. Meskipun demikian, Kota Dingling memiliki konsentrasi gas O3 paling tinggi dan Kota Wanliu memiliki konsentrasi gas O3 paling rendah diantara kota-kota lainnya.
 
-<img src="images/citycothreshold.png" alt="Konsentrasi karbon monoksida di setiap kota" width="600/>
-https://raw.githubusercontent.com/prtmaars/Air-Quality-Beijing/master/images/citycothreshold.png
+![Konsentrasi karbon monoksida di setiap kota](https://raw.githubusercontent.com/prtmaars/Air-Quality-Beijing/master/images/citycothreshold.png)
 Pada gas CO atau Karbon Monoksida, WHO (World Health Organization) menetapkan ambang batas aman di angka 4000 μg/m³. Berdasarkan grafik di atas, konsentrasi gas CO di seluruh kota masih berada di bawah garis ambang batas sehingga dapat dikatakan aman. Meskipun demikian, Kota Wanshouxigong memiliki konsentrasi gas CO paling tinggi dan Kota Dingling memiliki konsentrasi gas CO paling rendah diantara kota-kota lainnya.
 
 ## Conclusion
