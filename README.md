@@ -1,6 +1,7 @@
 # Beijing Air Quality Analysis 
 Dicoding Data Analysis Project ✨
-[Dashboard](https://air-quality-beijing-view.streamlit.app/)
+
+[Air Quality Dashboard](https://air-quality-beijing-view.streamlit.app/)
 
 ## Project Overview
 Project ini adalah project data analisis dari Dicoding untuk menganalisis kualitas udara di Beijing dengan memanfaatkan data historis dari berbagai parameter polutan udara, seperti PM2.5, PM10, SO2, NO2, CO, dan O3. Selain itu, proyek ini juga mempertimbangkan faktor-faktor lingkungan seperti suhu, tekanan udara, kelembapan, curah hujan, arah angin, dan kecepatan angin. Analisis ini bertujuan untuk memberikan wawasan yang lebih dalam mengenai tren kualitas udara di Beijing, hubungan antarparameter, serta dampak potensial terhadap kesehatan masyarakat. Hasilnya diharapkan dapat menjadi acuan untuk pengambilan keputusan yang lebih baik dalam pengelolaan lingkungan dan kebijakan udara bersih.
